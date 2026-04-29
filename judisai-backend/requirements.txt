@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+firebase-admin
+groq
+chromadb
+pydantic
+python-dotenv
+python-multipart
+openai-whisper
+Pillow
+httpx
+streamlit
+agno

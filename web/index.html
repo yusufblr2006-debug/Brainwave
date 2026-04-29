@@ -29,8 +29,19 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>judis_ai</title>
+  <title>JudisAI — Digital Legal Assistant</title>
   <link rel="manifest" href="manifest.json">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      navigator.mediaDevices.getUserMedia({ audio: true })
+        .then(function(stream) {
+          stream.getTracks().forEach(function(t) { t.stop(); });
+          console.log('Mic permission granted');
+        })
+        .catch(function(err) { console.warn('Mic denied:', err); });
+    });
+  </script>
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>

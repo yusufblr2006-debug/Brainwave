@@ -1,0 +1,38 @@
+[
+  {
+    "id": "case_001",
+    "title": "Ramesh Kumar v. State Land Authority — Property Boundary Dispute",
+    "summary": "Ramesh Kumar filed a suit against the State Land Authority claiming encroachment on his ancestral property in Uttar Pradesh. The court examined revenue records, mutation entries, and satellite imagery. The judgment clarified the applicability of Section 6 of the Specific Relief Act and reaffirmed that possession of immovable property for over 12 years under adverse possession can ripen into ownership under the Limitation Act, 1963.",
+    "keywords": ["property dispute", "land encroachment", "adverse possession", "Specific Relief Act", "mutation records"]
+  },
+  {
+    "id": "case_002",
+    "title": "Sunita Devi v. QuickBuy E-Commerce Pvt. Ltd. — Defective Product Complaint",
+    "summary": "Sunita Devi purchased a pressure cooker from QuickBuy's online platform which exploded during first use, causing burn injuries. The District Consumer Disputes Redressal Forum held QuickBuy and the manufacturer jointly liable under Section 2(1)(r) of the Consumer Protection Act, 2019. Compensation of ₹3,50,000 was awarded for medical expenses, mental agony, and deficiency in service.",
+    "keywords": ["consumer rights", "defective product", "Consumer Protection Act", "e-commerce liability", "product liability"]
+  },
+  {
+    "id": "case_003",
+    "title": "State of Maharashtra v. Anil Jadhav — Robbery and Assault under IPC",
+    "summary": "Anil Jadhav was charged under Sections 392 (robbery) and 325 (voluntarily causing grievous hurt) of the Indian Penal Code after allegedly attacking a shopkeeper in Pune and stealing ₹85,000 in cash. The Sessions Court examined CCTV footage, eyewitness testimony, and forensic evidence. The accused was convicted and sentenced to 7 years of rigorous imprisonment with a fine of ₹50,000.",
+    "keywords": ["criminal law", "IPC Section 392", "robbery", "grievous hurt", "Sessions Court"]
+  },
+  {
+    "id": "case_004",
+    "title": "Priya Malhotra v. Vikram Malhotra — Contested Divorce and Maintenance",
+    "summary": "Priya Malhotra filed for divorce on grounds of cruelty and desertion under Section 13(1)(ia) and Section 13(1)(ib) of the Hindu Marriage Act, 1955. She also sought interim maintenance under Section 24 of the Act and permanent alimony under Section 25. The Family Court granted divorce, awarded custody of the minor child to the mother, and directed the husband to pay ₹35,000 per month as maintenance.",
+    "keywords": ["divorce", "family law", "Hindu Marriage Act", "maintenance", "child custody"]
+  },
+  {
+    "id": "case_005",
+    "title": "Infosafe Technologies v. Unknown Accused — Data Breach and Identity Theft",
+    "summary": "Infosafe Technologies lodged an FIR after discovering that customer data from their servers was leaked and sold on the dark web. Investigation revealed unauthorized access through a phishing attack. Charges were framed under Sections 43, 66, 66C (identity theft), and 72A (breach of confidentiality) of the Information Technology Act, 2000. The Cyber Crime Cell traced the accused to Hyderabad using IP logs and digital forensics.",
+    "keywords": ["cyber crime", "data breach", "IT Act", "identity theft", "phishing"]
+  },
+  {
+    "id": "case_006",
+    "title": "Rajasthan Textile Workers Union v. Meera Fabrics Ltd. — Wrongful Termination",
+    "summary": "The Rajasthan Textile Workers Union filed a complaint on behalf of 47 workers who were terminated without notice or compensation after a factory relocation. The Industrial Tribunal held the termination illegal under Sections 25F and 25N of the Industrial Disputes Act, 1947, which mandate prior notice, compensation, and government approval for retrenchment in establishments with over 100 workers. The company was ordered to reinstate workers with full back wages.",
+    "keywords": ["labour law", "wrongful termination", "Industrial Disputes Act", "retrenchment", "worker rights"]
+  }
+]

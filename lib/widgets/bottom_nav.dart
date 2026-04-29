@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../core/theme.dart';
+import '../config/theme.dart';
 
 class BottomNav extends StatelessWidget {
   final int currentIndex;
@@ -12,7 +12,6 @@ class BottomNav extends StatelessWidget {
     _NavItem(Icons.auto_awesome, 'AI'),
     _NavItem(Icons.bolt_rounded, 'Advocate'),
     _NavItem(Icons.people_alt_rounded, 'Lawyers'),
-    _NavItem(Icons.person_rounded, 'Profile'),
   ];
 
   @override

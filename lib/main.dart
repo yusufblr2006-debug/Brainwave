@@ -1,24 +1,31 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'core/theme.dart';
-import 'core/router.dart';
+import 'package:provider/provider.dart';
+import 'config/theme.dart';
+import 'config/router.dart';
+import 'providers/app_provider.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(const ProviderScope(child: JudisAIApp()));
+  final provider = AppProvider();
+  await provider.init();
+  runApp(
+    ChangeNotifierProvider.value(
+      value: provider,
+      child: const JudisAIApp(),
+    ),
+  );
 }
 
-class JudisAIApp extends ConsumerWidget {
+class JudisAIApp extends StatelessWidget {
   const JudisAIApp({super.key});
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    final router = ref.watch(routerProvider);
+  Widget build(BuildContext context) {
     return MaterialApp.router(
       title: 'JudisAI',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.lightTheme,
-      routerConfig: router,
+      routerConfig: appRouter,
     );
   }
 }

@@ -1,7 +1,7 @@
-import 'package:flutter/material.dart';
-import '../core/theme.dart';
+﻿import 'package:flutter/material.dart';
+import '../config/theme.dart';
 
-/// Gradient pill button — every primary action uses this.
+/// Gradient pill button 鈥?every primary action uses this.
 class GradButton extends StatelessWidget {
   final String text;
   final VoidCallback onPressed;

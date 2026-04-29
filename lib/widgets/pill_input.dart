@@ -1,24 +1,26 @@
 import 'package:flutter/material.dart';
-import '../core/theme.dart';
+import '../config/theme.dart';
 
 /// Neumorphic pill-shaped text field with soft shadows.
 class PillInput extends StatelessWidget {
   final String hintText;
-  final bool obscureText;
+  final bool isPassword;
   final TextEditingController? controller;
   final IconData? prefixIcon;
   final Widget? suffix;
   final int maxLines;
+  final int minLines;
   final ValueChanged<String>? onChanged;
 
   const PillInput({
     super.key,
     required this.hintText,
-    this.obscureText = false,
+    this.isPassword = false,
     this.controller,
     this.prefixIcon,
     this.suffix,
     this.maxLines = 1,
+    this.minLines = 1,
     this.onChanged,
   });
 
@@ -35,8 +37,9 @@ class PillInput extends StatelessWidget {
       ),
       child: TextField(
         controller: controller,
-        obscureText: obscureText,
+        obscureText: isPassword,
         maxLines: maxLines,
+        minLines: minLines,
         onChanged: onChanged,
         style: AppTextStyles.bodyLarge,
         decoration: InputDecoration(

@@ -1,19 +1,21 @@
 import 'package:flutter/material.dart';
-import '../core/theme.dart';
+import '../config/theme.dart';
 
 /// Universal Neumorphic card used by every screen.
 /// Wraps child in white, rounded container with dual soft shadows.
 class NeuCard extends StatelessWidget {
   final Widget child;
   final EdgeInsetsGeometry padding;
+  final EdgeInsetsGeometry? margin;
   final VoidCallback? onTap;
 
-  const NeuCard({super.key, required this.child, this.padding = const EdgeInsets.all(20), this.onTap});
+  const NeuCard({super.key, required this.child, this.padding = const EdgeInsets.all(20), this.margin, this.onTap});
 
   @override
   Widget build(BuildContext context) {
     Widget content = Container(
       padding: padding,
+      margin: margin,
       decoration: BoxDecoration(
         color: AppColors.cardWhite,
         borderRadius: BorderRadius.circular(24),
